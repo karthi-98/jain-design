@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Jain Designs | Web Design & Development Services</title>
+    <meta name="title" content="Jain Designs | Web Design & Development Services" />
+    <meta name="description" content="Professional web design and development services specializing in custom platforms, e-commerce stores, and standard websites. Transform your digital presence with Jain Designs." />
+    <meta name="keywords" content="web design, web development, nextjs, react, custom web platform, ecommerce development, website design services" />
+    <meta name="author" content="Jain Designs" />
+    <meta name="theme-color" content="#4D8B31" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourwebsite.com/" />
+    <meta property="og:title" content="Jain Designs | Web Design & Development Services" />
+    <meta property="og:description" content="Professional web design and development services specializing in custom platforms, e-commerce stores, and standard websites." />
+    <meta property="og:image" content="/assets/og-image.jpg" />
+    <meta property="og:site_name" content="Jain Designs" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://yourwebsite.com/" />
+    <meta name="twitter:title" content="Jain Designs | Web Design & Development Services" />
+    <meta name="twitter:description" content="Professional web design and development services specializing in custom platforms, e-commerce stores, and standard websites." />
+    <meta name="twitter:image" content="/assets/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Manrope', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                green: '#4D8B31', // Approximating the green from the screenshot
+                dark: '#0A0A0A',
+              }
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+              'reveal': 'reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              reveal: {
+                '0%': { transform: 'translateY(100%)' },
+                '100%': { transform: 'translateY(0)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Custom utility for text-stroke if needed */
+      .text-stroke {
+        -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+      }
+      /* Hide scrollbar for cleaner reveal */
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+
+    <!-- Structured Data - Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Jain Designs",
+      "url": "https://yourwebsite.com",
+      "logo": "https://yourwebsite.com/logo.png",
+      "description": "Professional web design and development services specializing in custom platforms, e-commerce stores, and standard websites.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "email": "contact@jaindesigns.com"
+      }
+    }
+    </script>
+
+    <!-- Structured Data - WebSite Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Jain Designs",
+      "url": "https://yourwebsite.com",
+      "description": "Professional web design and development services"
+    }
+    </script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 antialiased selection:bg-brand-green selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
