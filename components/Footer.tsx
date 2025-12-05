@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
       
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://locotrails.b-cdn.net/lzokfy6v1vspmrptj08e.webp" 
-          alt="Green Abstract 3D Landscape" 
+        <img
+          src="/assets/footer.jpg"
+          alt="Green Abstract 3D Landscape"
           className="w-full h-full object-cover opacity-90"
         />
         {/* Darker overlay to ensure white text remains legible on the bright green background */}
