@@ -51,7 +51,7 @@ const OurWork: React.FC = () => {
   return (
     <>
       <SEO
-        title="Our Work - Portfolio & Case Studies | Jain Designs"
+        title="Our Work - Portfolio & Case Studies | DesignWithKarthick"
         description="Explore our portfolio of web design and development projects including custom platforms, e-commerce stores, and standard websites. See how we transform businesses digitally."
         canonical="https://yourwebsite.com/our-work"
         keywords="web design portfolio, web development projects, custom platform examples, ecommerce portfolio"

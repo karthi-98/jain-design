@@ -9,8 +9,8 @@ const Home: React.FC = () => {
   return (
     <>
       <SEO
-        title="Jain Designs | Web Design & Development Services"
-        description="Professional web design and development services specializing in custom platforms, e-commerce stores, and standard websites. Transform your digital presence with Jain Designs."
+        title="DesignWithKarthick | Web Design & Development Services"
+        description="Professional web design and development services specializing in custom platforms, e-commerce stores, and standard websites. Transform your digital presence with DesignWithKarthick."
         canonical="https://yourwebsite.com/"
         keywords="web design, web development, nextjs, react, custom web platform, ecommerce development, website design services"
       />

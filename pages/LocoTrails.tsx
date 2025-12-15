@@ -7,7 +7,7 @@ const LocoTrails: React.FC = () => {
   return (
     <>
       <SEO
-        title="LocoTrails - Custom Platform | Jain Designs"
+        title="LocoTrails - Custom Platform | DesignWithKarthick"
         description="Experiential travel platform built with Next.js, TypeScript, and Supabase. Features curated adventures, surprise trips, and custom admin panel for seamless trip management."
         canonical="https://yourwebsite.com/projects/locotrails"
         ogImage="/assets/locotrails.jpg"

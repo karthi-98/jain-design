@@ -7,7 +7,7 @@ const SreeRaajaGanapathyOilMill: React.FC = () => {
   return (
     <>
       <SEO
-        title="Sree Raaja Ganapathy Oil Mill - E-Commerce Store | Jain Designs"
+        title="Sree Raaja Ganapathy Oil Mill - E-Commerce Store | DesignWithKarthick"
         description="Premium e-commerce store for traditional cold-pressed cooking oils. Built with Next.js and Firebase featuring secure payments, inventory management, and order tracking."
         canonical="https://yourwebsite.com/projects/sree-raaja-ganapathy-oil-mill"
         ogImage="/assets/SreeRaajaGanapathyOilMill.jpg"

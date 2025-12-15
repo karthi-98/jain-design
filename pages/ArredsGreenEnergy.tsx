@@ -7,7 +7,7 @@ const ArredsGreenEnergy: React.FC = () => {
   return (
     <>
       <SEO
-        title="ARREDS Green Energy - Standard Website | Jain Designs"
+        title="ARREDS Green Energy - Standard Website | DesignWithKarthick"
         description="Agri-tech website empowering rural farmers with sustainable energy solutions. Built with Next.js and TypeScript for optimal performance and SEO."
         canonical="https://yourwebsite.com/projects/arreds-green-energy"
         ogImage="/assets/ArredsGe.jpg"
